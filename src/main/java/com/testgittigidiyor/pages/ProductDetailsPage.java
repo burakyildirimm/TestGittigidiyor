@@ -1,3 +1,6 @@
+package com.testgittigidiyor.pages;
+
+import com.testgittigidiyor.modules.Header;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;

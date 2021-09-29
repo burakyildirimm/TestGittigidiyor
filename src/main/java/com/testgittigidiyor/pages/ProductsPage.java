@@ -1,3 +1,6 @@
+package com.testgittigidiyor.pages;
+
+import com.testgittigidiyor.pages.BasePage;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
