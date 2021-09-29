@@ -30,7 +30,7 @@ public class LoginPage extends BasePage {
         super.find(passwordInputLocator).sendKeys(pass);
         super.hover(submitButtonLocator);
         super.click(submitButtonLocator);
-        super.driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        super.driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
     }
 
     public boolean isLogin() {
