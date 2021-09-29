@@ -7,11 +7,11 @@ import java.util.concurrent.TimeUnit;
 
 public class CartPage extends BasePage {
 
-    final private By completeShoppingBlockLocator = By.cssSelector("div.right-box-content");
-    final private By myProductCartsPrice = By.tagName("strong");
-    final private By amountSelectorLocator = By.cssSelector("select.amount");
-    final private By trashLocator = By.cssSelector("a.btn-delete.btn-update-item");
-    final private By emptyCartInfoLocator = By.cssSelector("div.empty-cart-info");
+    final private By completeShoppingBlockLocator   = By.cssSelector("div.right-box-content");
+    final private By myProductCartsPrice            = By.tagName("strong");
+    final private By amountSelectorLocator          = By.cssSelector("select.amount");
+    final private By trashLocator                   = By.cssSelector("a.btn-delete.btn-update-item");
+    final private By emptyCartInfoLocator           = By.cssSelector("div.empty-cart-info");
 
     public CartPage(WebDriver driver) {
         super(driver);

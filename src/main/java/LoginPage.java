@@ -5,10 +5,10 @@ import java.util.concurrent.TimeUnit;
 
 public class LoginPage extends BasePage {
 
-    final private By loginFormLocator = By.id("gg-login-box");
-    final private By mailInputLocator = By.id("L-UserNameField");
-    final private By passwordInputLocator = By.id("L-PasswordField");
-    final private By submitButtonLocator = By.id("gg-login-enter");
+    final private By loginFormLocator       = By.id("gg-login-box");
+    final private By mailInputLocator       = By.id("L-UserNameField");
+    final private By passwordInputLocator   = By.id("L-PasswordField");
+    final private By submitButtonLocator    = By.id("gg-login-enter");
 
     private Header header;
 

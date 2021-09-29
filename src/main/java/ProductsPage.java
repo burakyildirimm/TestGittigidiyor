@@ -9,7 +9,7 @@ public class ProductsPage extends BasePage {
 
     final private By fiiltersObjLocator = By.className("pn44zy-0");
     final private By pageButtonsLocator = By.cssSelector("li.sc-12aj18f-2 a.sc-12aj18f-0 span");
-    final private By productsLocator = By.cssSelector("li.sc-1nx8ums-0 a");
+    final private By productsLocator    = By.cssSelector("li.sc-1nx8ums-0 a");
 
 
     public ProductsPage(WebDriver driver) {
@@ -23,11 +23,21 @@ public class ProductsPage extends BasePage {
     }
 
     public boolean isOpen() {
-        return super.isDisplayed(fiiltersObjLocator);
+        if(super.isDisplayed(fiiltersObjLocator)) {
+            return true;
+        } else {
+            super.refreshPage();    // Because other tests should be continue!
+            return false;
+        }
     }
 
     public boolean controlPageNumber(int i) {
-        return super.isDisplayed(fiiltersObjLocator);
+        if(super.isDisplayed(fiiltersObjLocator)) {
+            return true;
+        } else {
+            super.refreshPage();    // Because other tests should be continue!
+            return false;
+        }
     }
 
     public void selectRandomProduct() {

@@ -2,18 +2,17 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-
 import java.util.concurrent.TimeUnit;
 
 public class ProductDetailsPage extends BasePage {
 
-    private static String productName= "";
+    private static String productName  = "";
     private static int productQuantity = 0;
     private static String productPrice = "";
 
     private Header header;
     final private By basketButtonLocator = By.id("add-to-basket");
-    final private By productNameLocator = By.id("sp-subTitle");
+    final private By productNameLocator  = By.id("sp-subTitle");
     final private By productPriceLocator = By.id("sp-price-lowPrice");
 
     public ProductDetailsPage(WebDriver driver) {

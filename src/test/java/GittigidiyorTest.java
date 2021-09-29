@@ -2,8 +2,6 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
 
-import java.util.concurrent.TimeUnit;
-
 public class GittigidiyorTest extends BaseTest {
 
     @Test

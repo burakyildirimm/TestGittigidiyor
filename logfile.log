@@ -17,3 +17,79 @@ Session ID: a6ef9bdd55caeae530b069c9df2369f9
 2021-09-29 22:09:51,649 INFO  [Log] validateCartPrice() PASSED 
 2021-09-29 22:09:51,887 INFO  [Log] increaseQuantityTo() PASSED 
 2021-09-29 22:09:52,078 ERROR [Log] deleteFromCart() FAILED ==> Your cart is not empty! ==> expected: <true> but was: <false> 
+2021-09-29 22:40:51,992 INFO  [Log] goToHomePage() PASSED 
+2021-09-29 22:40:54,103 INFO  [Log] goToLoginPage() PASSED 
+2021-09-29 22:40:58,915 ERROR [Log] login() FAILED ==> no such element: Unable to locate element: {"method":"css selector","selector":"div.gekhq4-4"}
+  (Session info: chrome=94.0.4606.61)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: '192.168.1.11', ip: 'fe80:0:0:0:1cf1:bf9c:1ba6:fac3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [45d5e206591aa5bf8daaced51fbbf692, findElement {using=css selector, value=div.gekhq4-4}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: /var/folders/0w/k6v6pprs5d3...}, goog:chromeOptions: {debuggerAddress: localhost:53805}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:53805/devtoo..., se:cdpVersion: 94.0.4606.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 45d5e206591aa5bf8daaced51fbbf692 
+2021-09-29 22:41:06,463 INFO  [Log] searchAProduct() PASSED 
+2021-09-29 22:41:10,298 INFO  [Log] switchPageTo() PASSED 
+2021-09-29 22:41:13,604 INFO  [Log] selectRandomProduct() PASSED 
+2021-09-29 22:41:15,122 INFO  [Log] addToCart() PASSED 
+2021-09-29 22:41:16,682 INFO  [Log] goToCartPage() PASSED 
+2021-09-29 22:41:16,717 INFO  [Log] validateCartPrice() PASSED 
+2021-09-29 22:41:16,946 INFO  [Log] increaseQuantityTo() PASSED 
+2021-09-29 22:41:17,128 ERROR [Log] deleteFromCart() FAILED ==> Your cart is not empty! ==> expected: <true> but was: <false> 
+2021-09-29 22:42:57,649 INFO  [Log] goToHomePage() PASSED 
+2021-09-29 22:43:00,124 INFO  [Log] goToLoginPage() PASSED 
+2021-09-29 22:43:04,951 ERROR [Log] login() FAILED ==> no such element: Unable to locate element: {"method":"css selector","selector":"div.gekhq4-4"}
+  (Session info: chrome=94.0.4606.61)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: '192.168.1.11', ip: 'fe80:0:0:0:1cf1:bf9c:1ba6:fac3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a0f064a75fb85d86fe0e655874daf9ee, findElement {using=css selector, value=div.gekhq4-4}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: /var/folders/0w/k6v6pprs5d3...}, goog:chromeOptions: {debuggerAddress: localhost:53885}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:53885/devtoo..., se:cdpVersion: 94.0.4606.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a0f064a75fb85d86fe0e655874daf9ee 
+2021-09-29 22:43:11,543 INFO  [Log] searchAProduct() PASSED 
+2021-09-29 22:43:15,187 INFO  [Log] switchPageTo() PASSED 
+2021-09-29 22:43:18,806 INFO  [Log] selectRandomProduct() PASSED 
+2021-09-29 22:43:20,304 INFO  [Log] addToCart() PASSED 
+2021-09-29 22:43:22,067 INFO  [Log] goToCartPage() PASSED 
+2021-09-29 22:43:22,120 INFO  [Log] validateCartPrice() PASSED 
+2021-09-29 22:43:22,353 INFO  [Log] increaseQuantityTo() PASSED 
+2021-09-29 22:43:22,496 ERROR [Log] deleteFromCart() FAILED ==> Your cart is not empty! ==> expected: <true> but was: <false> 
+2021-09-29 22:43:44,859 INFO  [Log] goToHomePage() PASSED 
+2021-09-29 22:43:46,943 INFO  [Log] goToLoginPage() PASSED 
+2021-09-29 22:43:51,379 ERROR [Log] login() FAILED ==> no such element: Unable to locate element: {"method":"css selector","selector":"div.gekhq4-4"}
+  (Session info: chrome=94.0.4606.61)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: '192.168.1.11', ip: 'fe80:0:0:0:1cf1:bf9c:1ba6:fac3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fa7ed418e95f90f309d6c47a15109dd6, findElement {using=css selector, value=div.gekhq4-4}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: /var/folders/0w/k6v6pprs5d3...}, goog:chromeOptions: {debuggerAddress: localhost:53966}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:53966/devtoo..., se:cdpVersion: 94.0.4606.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fa7ed418e95f90f309d6c47a15109dd6 
+2021-09-29 22:43:58,120 INFO  [Log] searchAProduct() PASSED 
+2021-09-29 22:44:01,709 INFO  [Log] switchPageTo() PASSED 
+2021-09-29 22:44:05,249 INFO  [Log] selectRandomProduct() PASSED 
+2021-09-29 22:44:06,691 INFO  [Log] addToCart() PASSED 
+2021-09-29 22:44:08,188 INFO  [Log] goToCartPage() PASSED 
+2021-09-29 22:44:08,231 INFO  [Log] validateCartPrice() PASSED 
+2021-09-29 22:44:08,469 INFO  [Log] increaseQuantityTo() PASSED 
+2021-09-29 22:44:08,685 ERROR [Log] deleteFromCart() FAILED ==> Your cart is not empty! ==> expected: <true> but was: <false> 
+2021-09-29 22:49:02,723 INFO  [Log] goToHomePage() PASSED 
+2021-09-29 22:49:04,886 INFO  [Log] goToLoginPage() PASSED 
+2021-09-29 22:49:09,198 ERROR [Log] login() FAILED ==> no such element: Unable to locate element: {"method":"css selector","selector":"div.gekhq4-4"}
+  (Session info: chrome=94.0.4606.61)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: '192.168.1.11', ip: 'fe80:0:0:0:1cf1:bf9c:1ba6:fac3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6ae628145d839741a8653a62b20e459b, findElement {using=css selector, value=div.gekhq4-4}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: /var/folders/0w/k6v6pprs5d3...}, goog:chromeOptions: {debuggerAddress: localhost:54045}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:54045/devtoo..., se:cdpVersion: 94.0.4606.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6ae628145d839741a8653a62b20e459b 
+2021-09-29 22:49:15,797 INFO  [Log] searchAProduct() PASSED 
+2021-09-29 22:49:19,419 INFO  [Log] switchPageTo() PASSED 
+2021-09-29 22:49:22,502 INFO  [Log] selectRandomProduct() PASSED 
+2021-09-29 22:49:23,934 INFO  [Log] addToCart() PASSED 
+2021-09-29 22:49:25,466 INFO  [Log] goToCartPage() PASSED 
+2021-09-29 22:49:25,512 INFO  [Log] validateCartPrice() PASSED 
+2021-09-29 22:49:25,841 INFO  [Log] increaseQuantityTo() PASSED 
+2021-09-29 22:49:26,100 ERROR [Log] deleteFromCart() FAILED ==> Your cart is not empty! ==> expected: <true> but was: <false> 

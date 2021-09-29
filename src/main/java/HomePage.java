@@ -4,8 +4,8 @@ import org.openqa.selenium.WebDriver;
 public class HomePage extends BasePage {
 
     private Header header;
-    final private By headerIdLocator = By.id("main-header");
-    final private By cookiesCloseLocator = By.cssSelector("section.tyj39b-4 a.tyj39b-5");
+    final private By headerIdLocator        = By.id("main-header");
+    final private By cookiesCloseLocator    = By.cssSelector("section.tyj39b-4 a.tyj39b-5");
 
     public HomePage(WebDriver driver) {
         super(driver);
